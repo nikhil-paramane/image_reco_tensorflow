@@ -1,12 +1,14 @@
-# image_reco_tensorflow
 
-<b>Student Project for using image recognition for Cranes and other Heavy Construction Equipment</b>
+### Student Project for using image recognition for Cranes and other Heavy Construction Equipment
+* Uses [Python](https://www.python.org) language
+* Uses [Django](https://www.djangoproject.com) Web Framework
+* Uses [TensorFlow](https://www.tensorflow.org) Machine Learning Framework
 
-Uses Python language
-Uses Django Web Framework
-Uses TensorFlow Machine Learning Framework
 
-Need: Python 3.6.2
+### Instructions for how to setup:
+* Install Python 3.8.5
+* Install Django 3.1.1
+* Install TensorFlow 2.3
 
-<b>Instructions for how to Demo:</b>
-Coming soon
+### Instructions for how to Demo:
+* Coming soon
