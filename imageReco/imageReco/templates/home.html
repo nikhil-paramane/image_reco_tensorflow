@@ -1,0 +1,16 @@
+{% extends 'base.html'	 %}
+<center></h1> JSON to CSV convertor </h1></center>
+{% load crispy_forms_tags %}
+{%block content %}
+</br>
+</br>
+</br>
+</br>
+	<form method ="post" enctype="multipart/form-data" style="padding-top: 100px;" >
+		{% csrf_token %}
+    <fieldset class="form-group">
+			{{ form|crispy }}
+		</fieldset>
+		<button id="uploadBtn" style="background: black;  color:white;" class="btn btn-outline-info" type="submit">Upload and Detect</button>
+	</form>
+{% endblock %}

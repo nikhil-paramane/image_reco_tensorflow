@@ -1,0 +1,28 @@
+{% extends 'base.html'	 %}
+
+{% block content %}
+
+<h1>Here are the result</h1>
+{% if url %}
+    <img src="{{url}}" alt="{{img_name}}">
+{% endif %}
+{% if result %}    
+    
+<table class="table table-bordered">
+    <thead>
+        <tr>
+        <th scope="col">Label</th>
+        <th scope="col">Confidence</th>                
+        </tr>
+    </thead>
+    <tbody>
+        {% for k,v in result.items %}
+        <tr>
+            <td>{{k}}</td>
+            <td>{{v}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>  
+{% endif %}
+{% endblock %}
