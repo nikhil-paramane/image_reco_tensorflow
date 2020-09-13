@@ -5,5 +5,8 @@
 Uses Python language
 Uses Django Web Framework
 Uses TensorFlow Machine Learning Framework
+
+Need: Python 3.6.2
+
 <b>Instructions for how to Demo:</b>
 Coming soon
