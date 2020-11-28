@@ -2,3 +2,6 @@ tmp/*
 log/*
 env/*
 *.log
+imageReco/imageReco/__pycache__/*
+imageReco/tfreco/__pycache__/*
+imageReco/tfreco/migrations/__pycache__/*
